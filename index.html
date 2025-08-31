@@ -4,54 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bruno Souza da Silva - Portfólio de Programação</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-        }
-        h1, h2 {
-            color: #555;
-        }
-        .header, .footer {
-            text-align: center;
-            padding: 1em 0;
-            background: #333;
-            color: #fff;
-        }
-        .project {
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 20px;
-            margin-bottom: 20px;
-        }
-        .project:last-child {
-            border-bottom: none;
-        }
-        .btn {
-            display: inline-block;
-            background: #5cb85c;
-            color: #fff;
-            padding: 10px 15px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .contact-info a {
-            color: #555;
-            text-decoration: none;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -70,7 +24,7 @@
 
         <section id="projects">
             <h2>Meus Projetos</h2>
-            <div class="project">
+            <div class="project-card">
                 <h3>Sistema de Gerenciamento de Ordens de Serviço (OS)</h3>
                 <p>
                     Este é um sistema de gerenciamento de ordens de serviço completo, desenvolvido em <strong>Python</strong> com o framework <strong>Flask</strong>. O projeto foi concebido para atender às necessidades de uma assistência técnica ou empresa de reparos, permitindo o registro, acompanhamento e a gestão de clientes, serviços e ordens de serviço de forma eficiente.
@@ -78,20 +32,17 @@
                 <p><strong>Tecnologias Utilizadas:</strong> Python, Flask, SQLAlchemy, Flask-Bcrypt, Flask-Login, Flask-WTF.</p>
                 <a href="https://github.com/BrunoWt10/sistema-ordem-de-servico" class="btn" target="_blank">Ver no GitHub</a>
             </div>
-            </section>
+        </section>
 
         <section id="contact">
             <h2>Contato</h2>
             <p class="contact-info">
-                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/brunowt10" target="_blank">Perfil do LinkedIn</a><br>
+                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/brunowt10/" target="_blank">Meu perfil no LinkedIn</a><br>
+                <strong>Instagram:</strong> <a href="https://instagram.com/bruno_wt_10" target="_blank">@bruno_wt_10</a><br>
                 <strong>E-mail:</strong> <a href="mailto:brunowt83@gmail.com">brunowt83@gmail.com</a>
             </p>
         </section>
     </div>
-
-    <footer class="footer">
-        <p>&copy; 2024 Bruno Souza da Silva. Todos os direitos reservados.</p>
-    </footer>
 
 </body>
 </html>
